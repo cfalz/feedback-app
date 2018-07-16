@@ -5,8 +5,8 @@ app.get('/', (req, res) => {
     res.send({hi: 'there'});
 });
 
-const POST = process.env.PORT || 8000;
-app.listen(8000);
+const POST = process.env.PORT || 5000;
+app.listen(5000);
 
 
 
