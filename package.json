@@ -4,11 +4,12 @@
   "description": "MERN application allows a feedback request to be sent.",
   "main": "index.js",
   "engines": {
-      "node": "8.1.1",
-      "npm":"5.0.3"
+    "node": "8.1.1",
+    "npm": "5.0.3"
   },
   "scripts": {
-    "start": "cd server && node index.js"
+    "start": "node ./server/index.js",
+    "dev": "nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,11 @@
   },
   "homepage": "https://github.com/cfalz/feedback-app#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4",
+    "nodemon": "^1.18.3",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
   }
 }
