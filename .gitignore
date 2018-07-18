@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#Ignore Swap Files
+*.swp
+
 #Do Not Commit API Keys
 dev.js
 
